@@ -1,4 +1,4 @@
-github.txt for exploring_lists 
+github.txt for two_files 
 
 GitHub, Git
 
@@ -30,17 +30,17 @@ http://help.github.com/create-a-repo/
 
 Create a New Repo at GitHub 
 (without README, since cloning will not be used).
-Repository Name: exploring_lists
+Repository Name: two_files
 Description: 
-  Examples used in presentations of the On Dart Web Programming course.
+  An example of using two dart files with one library.
       
 Next steps:
-  cd git/dart/educ/exploring_lists
+  cd git/dart/educ/two_files
   git init
   git status
   git add .
   git commit -m 'initial version'
-  git remote add origin https://github.com/dzenanr/exploring_lists.git
+  git remote add origin https://github.com/dzenanr/two_files.git
   git push -u origin master     
 
 -------------------------------------------------------------------------------
@@ -50,14 +50,14 @@ Git with Git Bash
 Clone a remote repository into a local repository.
 
 cd git/dart/educ
-git clone https://github.com/dzenanr/exploring_lists.git
-cd exploring_lists
+git clone https://github.com/dzenanr/two_files.git
+cd two_files
 
 Read+Write:
-https://github.com/dzenanr/exploring_lists.git
+https://github.com/dzenanr/two_files.git
 
 Read only:
-git://github.com/dzenanr/exploring_lists.git
+git://github.com/dzenanr/two_files.git
 
 Get the latest changes from the remote repository
 
@@ -69,7 +69,7 @@ git pull origin master
 
 Work with a local repository
 
-cd git/dart/educ/exploring_lists
+cd git/dart/educ/two_files
 
 git status
 
