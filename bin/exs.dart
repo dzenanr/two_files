@@ -1,6 +1,4 @@
-library two_files;
-
-part 'fcns.dart';
+import 'package:two_files/fcns.dart';
 
 ex1_1() {
   print('Ex. 1.1');

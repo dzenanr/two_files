@@ -1,4 +1,4 @@
-part of two_files;
+library fcns;
 
 num sum(List<num> list) => list.fold(0, (prev, element) => prev + element);
 
